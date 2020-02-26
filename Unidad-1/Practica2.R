@@ -50,3 +50,5 @@ names(y) <- c("I","II","III")  # Asigna nombres a los 3 valores anteriores
 y
 #10 calcula la raiz
 sqrt(9)
+
+
