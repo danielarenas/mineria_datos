@@ -1,4 +1,4 @@
-# BataMining
+# DataMining
 <b><p align="center">
                                                  TECNOLÓGICO NACIONAL DE MÉXICO</br>
                                                 INSTITUTO TECNOLÓGICO DE TIJUANA</br>
