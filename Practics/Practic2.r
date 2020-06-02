@@ -1,5 +1,5 @@
 getwd()
-setwd("C:/Users/GitHub/DataMining/MachineLearning/MultipleLinearRegression")
+setwd("C:/Users/Arenas/Documents/ITT/Minería de datos/Datasets/MultipleLinearRegression")
 getwd()
 
 # Importing the dataset
