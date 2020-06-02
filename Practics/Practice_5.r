@@ -1,5 +1,5 @@
 getwd()
-setwd("C:/Users/GitHub/DataMining/MachineLearning/SVM")
+setwd("C:/Users/Arenas/Documents/ITT/Minería de datos/Datasets/SVM")
 getwd()
 
 dataset = read.csv('Social_Network_Ads.csv')
