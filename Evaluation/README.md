@@ -1,4 +1,24 @@
-# Unit 2 - Exam
+# BataMining
+
+<b><p align="center">
+                                                 TECNOLÓGICO NACIONAL DE MÉXICO</br>
+                                                INSTITUTO TECNOLÓGICO DE TIJUANA</br>
+                                                      SUBDIRECCIÓN ACADÉMICA</br>
+                                              DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN</br> 
+                                                           PERIODO</br>
+                                                      Enero - Junio 2020</br>
+                                                           CARRERA</br>
+                                               Ing. En Sistemas Computacionales</br>
+                                                          ASIGNATURA</br> 
+                                                Mineria de Datos (BDD-1703TI9A)</br>
+                                                           DOCENTE</br>
+                                                Jose Christian Romero Hernandez</br>
+                                                           EQUIPO</br>
+                                             16210958 - Aguirre Ibarra Jesus Armando</br>
+                                             16210783 - Castro Arenas Flavio Daniel</br>                                                                                   
+</p></b>
+
+## Unit 2 - Exam
 
 **Instructions**
 
