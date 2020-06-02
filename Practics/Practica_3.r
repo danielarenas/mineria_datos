@@ -3,7 +3,7 @@ Analise the follow atomation backwardElimination function
 1. Set Working Directory
 
 getwd()
-setwd("C:/Users/GitHub/DataMining/MachineLearning/MultipleLinearRegression")
+setwd("C:/Users/Arenas/Documents/ITT/Minería de datos/Datasets/MultipleLinearRegression")
 getwd()
 2. Importing the dataset
 
