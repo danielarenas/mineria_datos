@@ -31,6 +31,11 @@
 
 [Practice 6](#id6)
 
+
+### Link to Homeworks
+https://drive.google.com/drive/folders/1MU1HrguBuf5ecL9AdSy8L07MM4K1dtuO?usp=sharing
+
+
 ### Practice 1  <a name="id1"></a>
 **Instructions**
 
