@@ -18,8 +18,13 @@
                                              16210783 - Castro Arenas Flavio Daniel</br>                                                                                   
 </p></b>
 
-## Unit 2 - Exam
+# Index 
+[Exam Unit 2](#id1)
 
+[Exam Unit 3](#id2)
+
+
+### Exam Unit 2  <a name="id1"></a>
 **Instructions**
 
 Develop the following problem with R and RStudio for the knowledge extraction that the problem requires.
@@ -128,4 +133,57 @@ The dataset includes more action movies than the other genres, that is why it sh
 **Conclusion**
 
 Analyzing the box plot, we can see that the WB and Universal studies are more focused on producing films of the Action genre, which produces more profits for both companies.
+
+***
+
+### Exam Unit 3  <a name="id2"></a>
+**Instructions**
+
+Develop the following problem with R and RStudio for the extraction of knowledge that the problem requires.
+
+Implement the Naive Bayes classification model with the Social_Network_Ads.csv data set and using the e1071 library with the naiveBayes () function. Once the classifier is obtained, make the corresponding data visualization analysis.
+
+At the end of the development, explain in detail what the Naive Bayes classification model consists of and also the detailed explanation corresponding to data visualization.
+
+**Code**
+```R
+#We import the dataset and assign it the name of df.
+library(readr)
+df <- read_csv("/home/armando/github/DataMining/MachineLearning/SVM/Social_Network_Ads.csv")
+View(df)
+
+#We delimit the dataset with which we are going to work.
+df = df[3:5]
+head(df)
+
+#We separate the true from the false or rather we identify them.
+library(caTools)
+
+#We divide the training and testing data, we give a margin of 80 to testing.
+#We get Training 320 out of 400 and testing 80 out of 400.
+resultados = sample.split(df$Purchased, SplitRatio = 0.80)
+Entrenamiento = df[resultados==TRUE,]
+Testeo = df[resultados == FALSE,]
+
+#We load the class library and find the prediction.
+#install.packages("class")
+library(class)
+prediction = knn(train = Entrenamiento, test=Testeo, cl =Entrenamiento$Purchased, k=5)
+cm = table(Testeo$Purchased, prediction)
+
+accuracy = sum(diag(cm))/sum(cm)
+
+#Add the library that we are asked to e1071 to proceed with the naive bayes algorithm.
+library(e1071)
+bayes_classifier = naiveBayes(formula = Purchased ~ ., data = Entrenamiento)
+bayes_prediction = predict(bayes_classifier, newdata = Testeo)
+cm = table(Testeo$Purchased, prediction)
+accuracy = sum(diag(cm))/sum(cm)
+
+
+#We print the prediction and the success case of the algorithm.
+cm
+accuracy
+
+```
 
