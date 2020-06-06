@@ -628,6 +628,7 @@ Recognition of human body parts was possible but it was complicated because ther
 
 
 **Classification method used**
+
 The method used was Random Forest, this classification method offers a quick and efficient classification when comparing the image of our body with the large image database.
 
 
