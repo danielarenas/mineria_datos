@@ -621,6 +621,9 @@ Inquire about the ElemStatLearn () package
 
 Conduct an essay on BodyPartRecognition.
 
+#### Real-Time Human Pose Recognition in Parts from Single Depth Images
+
+
 
 **Introduction**
 
