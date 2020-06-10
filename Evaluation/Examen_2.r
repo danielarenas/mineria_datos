@@ -1,7 +1,7 @@
 #Agregams el archivo.
 library(readr)
-movie <- read_csv("~/ITT/Mineria de datos/Datasets/Project-Data.csv")
-View(Project_Data)
+movie <- read_csv("/home/armando/github/Equipo/mineria_datos/Evaluation/Project-Data.csv")
+View(movie)
 head(movie)
 str(movie)
 summary(movie)
