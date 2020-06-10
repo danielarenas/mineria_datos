@@ -84,15 +84,15 @@ clusplot(iris,
 
 
 **Results**
-
+![Iris K-means](https://github.com/danielarenas/mineria_datos/blob/Unidad_3/img/Iris%20K-means.png)
 
 **Description**
 
-The dataset includes more action movies than the other genres, that is why it shows more points located in that genre, the exam asked us to filter by the 5 genera that appear in the graph, which are: action, adventure, animation, comedy and drama, which if we can do successfully, the purpose of making this box diagram is to make a statistical comparison of the distribution of the data of different groups, in our case it was movies by genre.
+We can know by the value of K, in this model it will be 3 cluster that represents the number of groupings that are represented in the graph by the 3 spices of iris plants, we can see that the Iris Setosa plant has quantitative characteristics that differ from the other 2 plants that are Iris versicolor and Iris virginica.
 
 
 **Conclusion**
 
-Analyzing the box plot, we can see that the WB and Universal studies are more focused on producing films of the Action genre, which produces more profits for both companies.
+We can conclude that the Iris setosa plant, which is cluster number 3, is removed from the other 2 plants, iris versicolor and iris virginica, that both in certain species keep certain quantitative similarities, whereas the setosa iris changes in all the samples obtained, their characteristics differentiate them. for quite a bit of the other 2 floors.
 
 
