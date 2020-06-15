@@ -1,4 +1,9 @@
+
+# BataMining
+
+
 # DataMining
+
 <b><p align="center">
                                                  TECNOLÓGICO NACIONAL DE MÉXICO</br>
                                                 INSTITUTO TECNOLÓGICO DE TIJUANA</br>
@@ -16,6 +21,12 @@
                                              16210958 - Aguirre Ibarra Jesus Armando</br>
                                              16210783 - Castro Arenas Flavio Daniel</br>                                                                                   
 </p></b>
+
+
+
+
+## Exam Unit 4
+![For more information click here.](https://github.com/danielarenas/mineria_datos/tree/Unidad_3/Evaluations)
 
 ## Unit 1
 ### Index
@@ -464,3 +475,4 @@ stats[stats$Country.Name== "Netherlands",]
 
 stats[stats$Country.Name== "Norway",]
 ```
+
